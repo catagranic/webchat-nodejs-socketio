@@ -1,7 +1,7 @@
 {
-  "name": "NodeJS - Socket.IO",
+  "name": "webchat-nodejs-socketio",
   "version": "1.0.0",
-  "description": "Node JS - Socket.io",
+  "description": "webchat-nodejs-socketio",
   "main": "index.js",
   "scripts": {
     "start": "nodemon server/index.js",

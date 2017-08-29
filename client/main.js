@@ -30,6 +30,7 @@ function addMessage(e){
 
     document.getElementById('nickname').style.display = 'none';
     socket.emit('add-message', message);
+    document.getElementById('text').value = '';
 
     return false;
 }
