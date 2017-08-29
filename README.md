@@ -8,7 +8,7 @@ Don't need anyone to have fun
 npm i
 ```
 
-![](client/images/hqYYrfa.gifv?raw=true)
+![](http://i.imgur.com/hqYYrfa.gifv)
 
 ### Have fun talking to yourself or other people sharing your IP
 
