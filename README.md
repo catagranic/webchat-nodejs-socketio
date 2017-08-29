@@ -8,8 +8,7 @@ Don't need anyone to have fun
 npm i
 ```
 
-![Chat Gif](client/images/hqYYrfa.gifv)
-Format: ![Alt Text](url)
+![](client/images/hqYYrfa.gifv?raw=true)
 
 ### Have fun talking to yourself or other people sharing your IP
 
