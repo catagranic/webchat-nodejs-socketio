@@ -3,21 +3,47 @@
   <head>
     <meta charset="uft-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Socket.io - NodeJS Chat</title>
+    <title>IP🐸Chat</title>
     <link rel="stylesheet" href="stylesheets/app.css">
   </head>
-  <body>
-  
-    <h1>Socket.io - NodeJS Chat</h1>
-    <div id="messages"></div>
-  
-    <form onsubmit="return addMessage(this);">
-      <input type="text" id="nickname" placeholder="Nickname">
-      <input type="text" id="text" placeholder="Write your message!">
-      <input type="submit" value="Send">
-    </form>
+  <body class="awesome-chat">
+
+    <div class="container jagged">
+      <div class="row">
+        <div class="col s12 m12 l12">
+          <h1 class="arial-black-text yellow-text-shadow">IP Chat</h1>
+          <h4 class="courier-new-text">You can only talk with yourself or people who are just next to you!😂</h4>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m12 l6">
+          <div id="messages" class="cheddar-border strawberry-banana-gradient"></div>
+          <form onsubmit="return addMessage(this);">
+            <input type="text" id="nickname" placeholder="Nickname" class="border-solid-thick water-border">
+            <input type="text" id="text" placeholder="Write your message!" class="border-solid-thick water-border">
+            <input type="submit" value="Send" class="throb btn kiwi black-cherry-text border-dashed-thick black-cherry-border">
+          </form>
+        </div>
+        <div class="col s12 m12 l6">
+          <img class="responsive circle glitch" src="images/n4XQO5T.jpg">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m12 l12">
+          <p class="box-shadow-triple grey lemon-text center">Maybe one day <span class="blink-fast" style="visibility: visible;">this thing</span> will work for real:<br>
+          <img src="images/ok-hand-sign_1f44c.png" alt="Fast-blinking Image" class="circle blink-fast small-thumb" style="visibility: visible;">
+          </p>
+        </div>
+      </div>
+
+    </div>
   
   </body>
   <script src="/socket.io/socket.io.js"></script>
-  <script src="main.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/brutalist.js"></script>
+  <script type="text/javascript" src="js/start.brutalizing.js"></script>
+  <script src="js/main.js"></script>
 </html>

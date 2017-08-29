@@ -10,7 +10,7 @@ socket.on('messages', function(data){
 function render(data){
     var html = data.map(function(message, index){
         return (`
-            <div class="message">
+            <div class="message lemon-lime-gradient">
                 <strong>${message.nickname}</strong> says:
                 <p>${message.text}</p>
             </div>

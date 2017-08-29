@@ -1,3 +1,17 @@
+@import 'brutalist_framework/theme.css';
+@import 'brutalist_framework/core/bfx.css';
+@import 'brutalist_framework/core/buix.css';
+@import 'brutalist_framework/core/butch.css';
+@import 'brutalist_framework/core/core.css';
+@import 'brutalist_framework/core/default.css';
+@import 'brutalist_framework/core/flavors.css';
+@import 'brutalist_framework/core/grids/core.css';
+@import 'brutalist_framework/core/grids/default-grid.css';
+@import 'brutalist_framework/core/grids/flexboxgrid.css';
+
+body {
+  background-color: red;
+}
 #messages {
   width: 95%;
   max-width: 400px;
@@ -6,7 +20,8 @@
   border: 1px solid #eee;
   -webkit-box-shadow: 0px 0px 20px #ccc inset;
   -moz-box-shadow: 0px 0px 20px #ccc inset;
-  box-shadow: 0px 0px 20px #ccc inset; }
+  box-shadow: 0px 0px 20px #ccc inset;
+}
 
 .message {
   margin: 20px;
@@ -15,6 +30,24 @@
   -moz-border-radius: 5px;
   border-radius: 5px;
   border: 1px solid #ccc;
-  background-color: white; }
+  background-color: white;
+}
 
-/*# sourceMappingURL=app.css.map */
+input[type="submit"] {
+  padding: 0 40px;
+}
+
+.container.jagged {
+  padding-bottom: 40px;
+  margin-top: 100px;
+}
+
+.box-shadow-triple.grey.lemon-text.center {
+  margin-top: 50px;
+}
+
+@media (min-width: 992px) {
+  img.responsive.circle.glitch {
+    margin-top: 15px;
+  }
+}

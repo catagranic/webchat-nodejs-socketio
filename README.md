@@ -8,4 +8,9 @@ Don't need anyone to have fun
 npm i
 ```
 
-### Have fun talking to yourself
+![Chat Gif](client/images/hqYYrfa.gifv)
+Format: ![Alt Text](url)
+
+### Have fun talking to yourself or other people sharing your IP
+
+
